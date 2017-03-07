@@ -1,0 +1,64 @@
+{
+  "teacher-lesson-plan-service": {
+    "description": "teacher-lesson-plan-service",
+    "service": "base-service",
+    "arguments": ["teacher_lesson_plan"],
+    "methods": [{
+      "description": "获取和发送验证码",
+      "senecaCmd": "plan_create",
+      "serviceMethod": "create",
+      "static": false
+    }, {
+      "description": "验证",
+      "senecaCmd": "plan_read",
+      "serviceMethod": "find",
+      "static": false
+    }, {
+      "description": "验证",
+      "senecaCmd": "plan_read_id",
+      "serviceMethod": "findById",
+      "static": false
+    }, {
+      "description": "验证",
+      "senecaCmd": "plan_update",
+      "serviceMethod": "update",
+      "static": false
+    }, {
+      "description": "验证",
+      "senecaCmd": "plan_delete",
+      "serviceMethod": "delete",
+      "static": false
+    }]
+  },
+  "lesson-plan-outline-service": {
+    "description": "lesson-plan-outline-service",
+    "service": "base-service",
+    "arguments": ["lesson-plan-outline"],
+    "methods": [{
+      "description": "获取和发送验证码",
+      "senecaCmd": "outline_create",
+      "serviceMethod": "create",
+      "static": false
+    }, {
+      "description": "验证",
+      "senecaCmd": "outline_read",
+      "serviceMethod": "find",
+      "static": false
+    }, {
+      "description": "验证",
+      "senecaCmd": "outline_read_id",
+      "serviceMethod": "findById",
+      "static": false
+    }, {
+      "description": "验证",
+      "senecaCmd": "outline_update",
+      "serviceMethod": "update",
+      "static": false
+    }, {
+      "description": "验证",
+      "senecaCmd": "outline_delete",
+      "serviceMethod": "delete",
+      "static": false
+    }]
+  }
+}
