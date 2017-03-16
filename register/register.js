@@ -17,7 +17,6 @@ module.exports = function register() {
   // 获取所有服务
   const services = Object.keys(config);
   services.forEach((item) => {
-    console.log(item)
     /* eslint-disable global-require, import/no-dynamic-require */
     const Service = require(serviceUrl + (config[item].service || item));
     const service = new Service(...config[item].arguments);

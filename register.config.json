@@ -33,7 +33,7 @@
   "lesson-plan-outline-service": {
     "description": "lesson-plan-outline-service",
     "service": "base-service",
-    "arguments": ["lesson-plan-outline"],
+    "arguments": ["lesson_plan_outline"],
     "methods": [{
       "description": "获取和发送验证码",
       "senecaCmd": "outline_create",

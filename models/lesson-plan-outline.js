@@ -5,13 +5,13 @@ const schema = new Schema({
   schoolyear: String,
   term: Number,
   grade: String,
-  outline: {
+  outline: [{
     week: Number,
-    lessons: {
+    lessons: [{
       lesson: Number,
       content: String,
-    },
-  },
+    }],
+  }],
   createAt: Date,
   updateAt: Date,
   createBy: String,
