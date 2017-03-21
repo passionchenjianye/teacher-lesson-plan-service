@@ -2,14 +2,14 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const schema = new Schema({
-  schoolyear: String,
-  term: Number,
-  grade: String,
+  schoolyear: String, // 学年
+  term: Number, // 学期  1 2
+  grade: String, // 年级
   outline: [{
-    week: Number,
+    week: Number, // 周数
     lessons: [{
-      lesson: Number,
-      content: String,
+      lesson: Number, // 课时
+      content: String, // 重点
     }],
   }],
   createAt: Date,

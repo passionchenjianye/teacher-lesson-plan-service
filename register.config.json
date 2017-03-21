@@ -4,27 +4,32 @@
     "service": "base-service",
     "arguments": ["teacher_lesson_plan"],
     "methods": [{
-      "description": "获取和发送验证码",
+      "description": "创建计划",
       "senecaCmd": "plan_create",
       "serviceMethod": "create",
       "static": false
     }, {
-      "description": "验证",
+      "description": "获取计划",
       "senecaCmd": "plan_read",
       "serviceMethod": "find",
       "static": false
     }, {
-      "description": "验证",
+      "description": "获取计划数量",
+      "senecaCmd": "plan_count",
+      "serviceMethod": "count",
+      "static": false
+    }, {
+      "description": "通过id获取计划",
       "senecaCmd": "plan_read_id",
       "serviceMethod": "findById",
       "static": false
     }, {
-      "description": "验证",
+      "description": "更改计划",
       "senecaCmd": "plan_update",
       "serviceMethod": "update",
       "static": false
     }, {
-      "description": "验证",
+      "description": "删除计划",
       "senecaCmd": "plan_delete",
       "serviceMethod": "delete",
       "static": false
@@ -35,27 +40,32 @@
     "service": "base-service",
     "arguments": ["lesson_plan_outline"],
     "methods": [{
-      "description": "获取和发送验证码",
+      "description": "创建大纲",
       "senecaCmd": "outline_create",
       "serviceMethod": "create",
       "static": false
     }, {
-      "description": "验证",
+      "description": "获取大纲",
       "senecaCmd": "outline_read",
       "serviceMethod": "find",
       "static": false
     }, {
-      "description": "验证",
+      "description": "获取大纲数量",
+      "senecaCmd": "outline_count",
+      "serviceMethod": "count",
+      "static": false
+    }, {
+      "description": "通过id获取大纲",
       "senecaCmd": "outline_read_id",
       "serviceMethod": "findById",
       "static": false
     }, {
-      "description": "验证",
+      "description": "修改大纲",
       "senecaCmd": "outline_update",
       "serviceMethod": "update",
       "static": false
     }, {
-      "description": "验证",
+      "description": "删除大纲",
       "senecaCmd": "outline_delete",
       "serviceMethod": "delete",
       "static": false
