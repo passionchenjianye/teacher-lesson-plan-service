@@ -12,6 +12,9 @@ const schema = new Schema({
       target: String, // 教学内容与目标
       method: String, // 教学组织与方法
       comment: String, // 备注
+      keyPoint: String, // 要点
+      duration: Number, // 时长
+      intensity: Number,// 强度
     },
   ], // 教学过程与内容
   grade: String, // 年级
@@ -21,6 +24,7 @@ const schema = new Schema({
   schoolyear: String, // 学年：2016-2017
   term: Number, // 学期：1
   week: Number, // 周次
+  equipment: String, // 器材
   lesson: Number, // 课次
   teacher: String, // 上课老师
   lessonAt: Date, // 上课时间
