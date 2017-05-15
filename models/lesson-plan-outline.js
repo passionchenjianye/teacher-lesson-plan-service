@@ -15,6 +15,7 @@ const schema = new Schema({
   createAt: Date,
   updateAt: Date,
   createBy: String,
+  classId: String,
 });
 
 module.exports = mongoose.model('lesson_plan_outline', schema);
