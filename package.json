@@ -16,6 +16,7 @@
     "seneca": "^3.3.0",
     "urllib": "^2.20.0",
     "xlsx": "^0.9.0",
+    "xyj-consul": "0.0.3",
     "xyj-logger": "0.0.1"
   },
   "devDependencies": {
